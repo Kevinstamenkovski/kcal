@@ -7,6 +7,7 @@ import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { BmiCalculatorComponent } from './bmi-calculator/bmi-calculator.component';
 import { BmrCalculatorComponent } from './bmr-calculator/bmr-calculator.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BmrCalculatorComponent } from './bmr-calculator/bmr-calculator.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
